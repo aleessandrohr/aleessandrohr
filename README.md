@@ -1,10 +1,8 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="30%">
+  <img align="right" alt="GIF" src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" />
 </p>
 
 ### Olá, eu me chamo Alessandro e atualmente tenho 13 anos. 👋
-
-<img align="right" alt="GIF" src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" />
 
 #### Sobre mim
 
