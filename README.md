@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.giff" width="30%">
+  <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" alt="gif">
 </p>
 
 ### Olá, eu me chamo Alessandro e atualmente tenho 13 anos. 👋
