@@ -30,7 +30,7 @@
 
 #### Editor de código
 
-<img src="https://img.shields.io/badge/Visual Studio Code-1380B7" alt="npm"/>
+<img src="https://img.shields.io/badge/Visual--Studio--Code-1380B7" alt="npm"/>
 
 ### Estatísticas
 
