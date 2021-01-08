@@ -8,10 +8,6 @@
 
 ### Sobre mim
 
-- 💻 Atualmente, não tenho um trabalho.
-- 🌱 Atualmente, estou aprendendo constantemente sobre a web.
-- 📫 Envie-me um e-mail para toprime13@gmail.com.
-
 ### Habilidades
 
 #### Linguagens
