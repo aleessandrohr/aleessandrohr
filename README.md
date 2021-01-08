@@ -4,9 +4,9 @@
 
 # Alessandro Ramos
 
-## Olá, eu me chamo Alessandro e atualmente tenho 13 anos. 👋
-
 ### Sobre mim
+
+Olá, eu me chamo Alessandro e atualmente tenho 13 anos e amo programar. 👋
 
 ### Habilidades
 
