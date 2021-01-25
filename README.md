@@ -1,37 +1,41 @@
 <p align="center">
-  <img height="250px" src="https://media.giphy.com/media/GnTHlXYp08VDJllWj7/giphy.gif" alt="gif">
+  <img src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif" width="200"/>
 </p>
 
 # Alessandro Ramos
 
-### Sobre mim
+### About me
 
-Olá, eu me chamo Alessandro e atualmente tenho 13 anos e amo programar. 👋
+Hello, my name is Alessandro, I'm 13 years old and I'm currently a front-end developer. 👋
 
-### Habilidades
+### Skills
 
-#### Linguagens
+#### Languages
 
 <img src="https://img.shields.io/badge/Python-04721A" alt="Python"/> <img src="https://img.shields.io/badge/HTML5-FA580C" alt="HTML5"/> 
 <img src="https://img.shields.io/badge/CSS3-173FF2" alt="CSS3"/> <img src="https://img.shields.io/badge/JavaScript-ffc742" alt="JavaScript"/> 
 <img src="https://img.shields.io/badge/TypeScript-1C7FEA" alt="TypeScript"/> <img src="https://img.shields.io/badge/NodeJS-83CD29" alt="NodeJS"/> 
 
-#### Bibliotecas
+#### Libraries
 
 <img src="https://img.shields.io/badge/ReactJS-4CDAFE" alt="ReactJS"/>
 
-#### Gerenciadores de pacotes
+### Frameworks
+
+<img src="https://img.shields.io/badge/NextJS-202020" alt="NextJS"/> 
+
+#### Package managers
 
 <img src="https://img.shields.io/badge/npm-FC1212" alt="npm"/> <img src="https://img.shields.io/badge/yarn-0BC7ED" alt="yarn"/>
 
-#### Editor de código
+#### Code editors
 
-<img src="https://img.shields.io/badge/Visual--Studio--Code-1380B7" alt="npm"/>
+<img src="https://img.shields.io/badge/Visual--Studio--Code-1380B7" alt="Visual-Studio-Code"/>
 
-### Estatísticas
+### Statistics
 
-![Estatísticas](https://github-readme-stats.vercel.app/api?username=alessandrohenriqueramos&show_icons=true&theme=dracula) 
+![Statistics](https://github-readme-stats.vercel.app/api?username=alessandrohenriqueramos&show_icons=true&theme=dracula) 
   
-<br>
+<br />
   
-[![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrohenriqueramos&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrohenriqueramos&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
