@@ -22,15 +22,7 @@ Hello, my name is Alessandro, I'm 13 years old and I'm currently a front-end dev
 
 #### Frameworks
 
-<img src="https://img.shields.io/badge/NextJS-202020" alt="NextJS"/> 
-
-#### Package managers
-
-<img src="https://img.shields.io/badge/npm-FC1212" alt="npm"/> <img src="https://img.shields.io/badge/yarn-0BC7ED" alt="yarn"/>
-
-#### Code editors
-
-<img src="https://img.shields.io/badge/Visual--Studio--Code-1380B7" alt="Visual-Studio-Code"/>
+<img src="https://img.shields.io/badge/NextJS-202020" alt="NextJS"/>
 
 ### Statistics
 
