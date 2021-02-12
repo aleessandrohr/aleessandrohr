@@ -30,11 +30,10 @@ Hi, my name is Alessandro and I'm a developer who works mainly on the front-end.
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=alessandrohenriqueramos&show_icons=true&theme=dracula" alt="Statistics" />
+  <img src="https://github-readme-stats.vercel.app/api?username=alessandrohenriqueramos&show_icons=true&theme=dracula" alt="Statistics" />
 
-<br />
-<br />
+  <br />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrohenriqueramos&layout=compact" alt="Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrohenriqueramos&layout=compact" alt="Languages" />
 
 </p>
