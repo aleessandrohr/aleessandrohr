@@ -6,7 +6,7 @@
 
 ## About me
 
-Hi, my name is Alessandro and I'm a developer who works mainly on the front-end. 👋
+hi, my name is Alessandro and i'm a front-end developer. 👋
 
 ### Skills
 
