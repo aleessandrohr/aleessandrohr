@@ -2,11 +2,11 @@
   <img src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif" width="200"/>
 </p>
 
-# Alessandro Ramos - @alessandrohenriqueramos
+# Alessandro Ramos - @alessandroramos13
 
 ## About me
 
-Hi, my name is Alessandro and i'm a front-end developer. 👋
+I am a front-end developer.
 
 ### Skills
 
@@ -26,7 +26,7 @@ Hi, my name is Alessandro and i'm a front-end developer. 👋
 ### Statics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alessandrohenriqueramos&show_icons=true&theme=dracula" alt="Statistics" />
+  <img src="https://github-readme-stats.vercel.app/api?username=alessandroramos13&show_icons=true&theme=dracula" alt="Statistics" />
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandrohenriqueramos&layout=compact" alt="Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandroramos13&layout=compact" alt="Languages" />
 </p>
