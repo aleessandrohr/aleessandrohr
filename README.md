@@ -28,5 +28,5 @@ I am a front-end developer.
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=alessandroramos13&show_icons=true&theme=dracula" alt="Statistics" />
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandroramos13&layout=compact" alt="Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alessandroramos13&layout=compact&theme=dracula" alt="Languages" />
 </p>
