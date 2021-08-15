@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif" width="200"/>
+  <img src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif" width="200" />
 </p>
 
 # Alessandro Ramos - @alessandroramos13
 
 ## About me
 
-I am a front-end developer.
+Hi, I'm Alessandro Ramos, a FrontEnd developer with a focus on TypeScript and React.
 
 ### Skills
 
