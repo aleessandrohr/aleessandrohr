@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://github.com/aleessandrohr/aleessandrohr/blob/master/assets/hollor_knight.gif?raw=true" alt="Hollor Knight" width="200" />
+  <img src="https://github.com/aleessandrohr/aleessandrohr/blob/master/assets/hollor_knight.gif?raw=true" alt="Hollow Knight" width="200" />
 </p>
 
-# Alessandro Ramos - @aleessandrohr
+# Alessandro H. Ramos - @aleessandrohr
 
 ## About me
 
-Hi, I'm Alessandro Ramos, a FrontEnd developer with a focus on TypeScript and React.
+Hi, my name is Alessandro Henrique Ramos, and I'm a front-end developer focused on TypeScript and React.
 
 ### Skills
 
