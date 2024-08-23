@@ -26,8 +26,8 @@ Hi, my name is Alessandro Henrique Ramos, and I'm a front-end developer focused 
 
 ### Statics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aleessandrohr&show_icons=true&theme=dracula" alt="Statistics" />
-  <br />
+<p>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleessandrohr&layout=compact&theme=dracula" alt="Languages" />
+  <hr />
+  <img src="https://github-readme-stats.vercel.app/api?username=aleessandrohr&show_icons=true&theme=dracula" alt="Statistics" />
 </p>
