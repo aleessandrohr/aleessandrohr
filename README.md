@@ -18,9 +18,11 @@ Hi, my name is Alessandro Henrique Ramos, and I'm a front-end developer focused 
 [![ReactJS](https://img.shields.io/badge/ReactJS-4CDAFE?style=for-the-badge&logo=react&labelColor=000000)]()
 [![NextJS](https://img.shields.io/badge/NextJS-202020?style=for-the-badge&logo=next.js&labelColor=000000)]()
 [![Styled%20Components](https://img.shields.io/badge/Styled%20Components-E07F88?style=for-the-badge&logo=styled%20components&labelColor=000000)]()
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4CDAFE?style=for-the-badge&logo=tailwindcss&labelColor=000000)]()
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&labelColor=000000)]()
 [![Prettier](https://img.shields.io/badge/Prettier-56B3B4?style=for-the-badge&logo=prettier&labelColor=000000)]()
 [![Python](https://img.shields.io/badge/Python-04721A?style=for-the-badge&logo=python&labelColor=000000)]()
+[![Golang](https://img.shields.io/badge/Golang-29BEB0?style=for-the-badge&logo=go&labelColor=000000)]()
 
 ### Statics
 
