@@ -2,7 +2,7 @@
   <img src="https://github.com/aleessandrohr/aleessandrohr/blob/master/assets/hollor_knight.gif?raw=true" alt="Hollow Knight" width="200" />
 </p>
 
-# Alessandro H Ramos - @aleessandrohr
+# Alessandro Henrique Ramos - @aleessandrohr
 
 ## About me
 
