@@ -1,0 +1,36 @@
+{
+	"plugins": ["eslint-plugin-import-helpers"],
+	"extends": ["@rocketseat/eslint-config/next", "next/core-web-vitals"],
+	"rules": {
+		"import-helpers/order-imports": [
+			"warn",
+			{
+				"newlinesBetween": "always",
+				"groups": ["module", "/^@//", ["parent", "sibling", "index"]],
+				"alphabetize": { "order": "asc", "ignoreCase": true }
+			}
+		],
+		"prettier/prettier": [
+			"error",
+			{
+				"trailingComma": "all",
+				"tabWidth": 2,
+				"useTabs": true,
+				"singleQuote": false,
+				"arrowParens": "avoid",
+				"semi": true,
+				"bracketSpacing": true,
+				"endOfLine": "lf",
+				"quoteProps": "consistent",
+				"overrides": [
+					{
+						"files": "*.yml",
+						"options": {
+							"useTabs": false
+						}
+					}
+				]
+			}
+		]
+	}
+}
