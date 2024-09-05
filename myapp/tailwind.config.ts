@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import defaultTheme from "tailwindcss/defaultTheme";
+import plugin from "tailwindcss/plugin";
 
 const config: Config = {
 	darkMode: ["class"],
@@ -72,6 +73,15 @@ const config: Config = {
 			...defaultTheme.screens,
 		},
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		require("tailwindcss-animate"),
+		plugin(({ addComponents, theme }) => {
+			addComponents({
+				".custom_container": {
+					padding: theme("spacing.8"),
+				},
+			});
+		}),
+	],
 };
 export default config;
