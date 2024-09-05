@@ -31,16 +31,16 @@ const menuItems = [
 const socialMediaArray = [socialMedia.github, socialMedia.linkedin];
 
 export const Profile = () => (
-	<Card className="flex flex-col gap-2">
+	<Card className="flex h-full max-h-full w-full max-w-md flex-col gap-2 overflow-y-auto">
 		<CardHeader>
 			<CardTitle className="flex flex-col gap-2">
 				<picture className="my-4 flex h-full w-full items-center justify-center">
 					<Image
 						src="/static/assets/profile.jpg"
 						alt="Profile"
-						width={768}
-						height={768}
-						className="h-64 w-64 rounded-full"
+						width={480}
+						height={480}
+						className="h-40 w-40 rounded-full object-cover"
 					/>
 				</picture>
 				<span>Alessandro Henrique Ramos</span>
@@ -63,7 +63,7 @@ export const Profile = () => (
 		<CardFooter className="flex gap-2">
 			{socialMediaArray.map(({ href, name, icon }) => (
 				<Button asChild key={name} variant="outline" size="icon">
-					<Link href={href} aria-label={name} title={name}>
+					<Link href={href} aria-label={name} title={name} target="_blank">
 						<Icon name={icon} />
 					</Link>
 				</Button>
