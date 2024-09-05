@@ -6,7 +6,7 @@ const Home = () => {
 			<aside className="md:h-dvh md:rounded-r-lg">
 				<Profile />
 			</aside>
-			<main className="md:custom_container w-full md:h-dvh md:overflow-y-auto">
+			<main className="w-full md:custom_container md:h-dvh md:overflow-y-auto">
 				Coming Soon...
 			</main>
 		</div>
