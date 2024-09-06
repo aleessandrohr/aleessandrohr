@@ -1,3 +1,8 @@
+import Image from "next/image";
+import Link from "next/link";
+
+import { Icon } from "@/components/Icon";
+import { Button } from "@/components/ui/button";
 import {
 	Card,
 	CardDescription,
@@ -5,10 +10,6 @@ import {
 	CardTitle,
 	CardFooter,
 } from "@/components/ui/card";
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Icon } from "@/components/Icon";
-import Link from "next/link";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 interface Props {

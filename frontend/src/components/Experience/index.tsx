@@ -1,10 +1,10 @@
+import { Icon } from "@/components/Icon";
 import {
 	Card,
 	CardDescription,
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
-import { Icon } from "@/components/Icon";
 
 interface Props {
 	start: string;

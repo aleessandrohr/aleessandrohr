@@ -1,7 +1,6 @@
 import { Experience } from "@/components/Experience";
-import { Project } from "@/components/Project";
 import { Profile } from "@/components/Profile";
-
+import { Project } from "@/components/Project";
 import { experiences } from "@/data/experiences";
 import { projects } from "@/data/projects";
 
