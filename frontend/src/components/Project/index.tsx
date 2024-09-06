@@ -11,6 +11,8 @@ import {
 	CardFooter,
 } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Loading } from "@/components/ui/loading";
+import { Skeleton } from "@/components/ui/skeleton";
 
 interface Props {
 	imageUrl: string;
@@ -37,11 +39,14 @@ export const Project = ({ imageUrl, title, description, href }: Props) => (
 						<Button>Experimente clicando aqui!</Button>
 					</DialogTrigger>
 					<DialogContent className="h-[90dvh] max-h-[90dvh] w-[90dvw] max-w-[90dvw] rounded-lg">
-						<div className="w-full p-2">
+						<div className="relative w-full p-2">
+							<Skeleton className="z-index-0 flex h-full w-full items-center justify-center rounded-lg shadow-lg">
+								<Loading>Carregando</Loading>
+							</Skeleton>
 							<iframe
 								src={href}
 								title={title}
-								className="h-full w-full rounded-lg"
+								className="z-index-40 absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-lg"
 								loading="lazy"
 							/>
 						</div>
