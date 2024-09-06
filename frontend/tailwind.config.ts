@@ -79,6 +79,19 @@ const config: Config = {
 			addComponents({
 				".custom_container": {
 					padding: theme("spacing.8"),
+					width: theme("width.full"),
+					maxWidth: theme("screens.xl"),
+					margin: theme("margin.auto"),
+				},
+				".custom_title": {
+					fontSize: theme("fontSize.xl"),
+					fontWeight: theme("fontWeight.medium"),
+				},
+				".custom_description": {
+					fontSize: theme("fontSize.base"),
+					fontWeight: theme("fontWeight.normal"),
+					textAlign: "justify",
+					color: theme("colors.muted.foreground"),
 				},
 			});
 		}),
