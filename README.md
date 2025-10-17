@@ -6,7 +6,7 @@
 
 ## About me
 
-Hi, my name is Alessandro Henrique Ramos, and I'm a front-end developer focused on TypeScript and Next.js.
+Hi, my name is Alessandro Henrique Ramos and I'm a middle front-end developer focused on TypeScript and React.js.
 
 ### Skills
 
