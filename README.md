@@ -6,7 +6,7 @@
 
 ## About me
 
-Hi, my name is Alessandro Henrique Ramos and I'm a middle front-end developer focused on TypeScript and React.js.
+Hi! My name is Alessandro Henrique Ramos and I'm a Full-Stack Developer with experience in TypeScript, React, and Node.js.
 
 ### Skills
 
