@@ -45,6 +45,26 @@ const filename = (label) =>
 		.replace(/[^a-z0-9]+/g, "-")
 		.replace(/^-|-$/g, "")}.svg`;
 
+const refineBadge = (svg, label) => {
+	const sourceWidth = Number(svg.match(/<svg[^>]*\bwidth="(\d+)"/)[1]);
+	const sourceIcon = svg.match(/<image\b[^>]*\/>/)?.[0];
+	const icon = sourceIcon
+		? sourceIcon
+				.replace(/\bx="[^"]*"/, 'x="10"')
+				.replace(/\by="[^"]*"/, 'y="6"')
+				.replace(/\bwidth="[^"]*"/, 'width="16"')
+				.replace(/\bheight="[^"]*"/, 'height="16"')
+		: "";
+	const width = Math.ceil(
+		((sourceWidth - (icon ? 28 : 10)) * 12) / 11 + (icon ? 44 : 20),
+	);
+	const escaped = label
+		.replaceAll("&", "&amp;")
+		.replaceAll("<", "&lt;")
+		.replaceAll('"', "&quot;");
+	return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="28" viewBox="0 0 ${width} 28" role="img" aria-label="${escaped}"><title>${escaped}</title><rect x=".5" y=".5" width="${width - 1}" height="27" rx="7" fill="#23272e" stroke="#3b414b"/>${icon}<text x="${icon ? 34 : 10}" y="18" fill="#e6edf3" font-family="Verdana,DejaVu Sans,sans-serif" font-size="12">${escaped}</text></svg>`;
+};
+
 // Download in small batches; validate everything before replacing the last set.
 const results = [];
 for (let start = 0; start < labels.length; start += 4) {
@@ -65,7 +85,7 @@ for (let start = 0; start < labels.length; start += 4) {
 				const svg = await response.text();
 				if (!svg.includes("<svg") || !svg.trimEnd().endsWith("</svg>"))
 					throw new Error(`${label}: invalid SVG`);
-				return { label, svg };
+				return { label, svg: refineBadge(svg, label) };
 			}),
 		)),
 	);
