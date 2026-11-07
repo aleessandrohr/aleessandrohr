@@ -1,21 +1,66 @@
-<p align="center">
-  <img src="https://github.com/aleessandrohr/aleessandrohr/blob/master/assets/hollor_knight.gif?raw=true" alt="Hollow Knight" width="200" />
-</p>
+<a href="https://aleessandrohr.dev.br">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg" />
+    <img src="assets/profile-header-light.svg" alt="Alessandro Henrique Ramos. Full-Stack Developer. aleessandrohr.dev.br" width="100%" />
+  </picture>
+</a>
 
-# Alessandro Henrique Ramos - @aleessandrohr | [https://aleessandrohr.dev.br](https://aleessandrohr.dev.br)
+<p align="center">
+  <a href="https://aleessandrohr.dev.br">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/aleessandrohr/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:alessandro.henri.r@gmail.com">Email</a>
+</p>
 
 ## About me
 
-Hi! My name is Alessandro Henrique Ramos and I'm a Full-Stack Developer specialized in front-end with React.js and Next.js, and back-end with Node.js and PostgreSQL. I have experience building corporate SaaS products with micro frontends architecture (Module Federation), microservices integration, and infrastructure operations.
+I'm a mid-level Full-Stack Developer working with TypeScript, specializing in front-end development with React.js and Next.js, back-end development with Node.js and PostgreSQL, and mobile development with React Native and Expo. I have experience with micro frontend architectures using Module Federation, microservices integration, infrastructure, and AI solutions. I'm pursuing a degree in Computer Engineering at the Federal University of Maranhão (UFMA).
 
-### Skills
+## Skills
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ffc742?style=for-the-badge&logo=javascript&labelColor=000000)]() [![TypeScript](https://img.shields.io/badge/TypeScript-1C7FEA?style=for-the-badge&logo=typescript&labelColor=000000)]() [![Python](https://img.shields.io/badge/Python-04721A?style=for-the-badge&logo=python&labelColor=000000)]() [![Golang](https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&labelColor=000000)]() [![React.js](https://img.shields.io/badge/React.js-4CDAFE?style=for-the-badge&logo=react&labelColor=000000)]() [![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&labelColor=000000)]() [![Next.js](https://img.shields.io/badge/Next.js-202020?style=for-the-badge&logo=next.js&labelColor=000000)]() [![Node.js](https://img.shields.io/badge/Node.js-83CD29?style=for-the-badge&logo=node.js&labelColor=000000)]() [![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&labelColor=000000)]() [![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&labelColor=000000)]() [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&labelColor=000000)]() [![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=for-the-badge&logo=drizzle&labelColor=000000)]() [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&labelColor=000000)]() [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&labelColor=000000)]() [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&labelColor=000000)]() [![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&labelColor=000000)]()
+| Area | Technologies and tools |
+| --- | --- |
+| Languages | `TypeScript` `JavaScript` `Python` |
+| Front-end | `React.js` `Next.js` `Module Federation` `Tailwind CSS` `shadcn/ui` `Motion` |
+| Back-end | `Node.js` `Express.js` `Fastify` `Prisma ORM` `Drizzle ORM` |
+| Mobile | `React Native` `Expo` |
+| Databases | `PostgreSQL` `MongoDB` |
+| Infrastructure & DevOps | `Docker` `Portainer` `Cloudflare` `Caddy` |
+| AI tools | `Claude Code` `Codex` `Antigravity` `Google AI Studio` |
+| Tooling & integration | `Git` `Bun` `GitHub Actions` `i18n` `Socket.io` |
 
-### Statics
+## Selected work
 
-<p>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=aleessandrohr&layout=compact&theme=dracula" alt="Languages" />
-  <hr />
-  <img src="https://github-readme-stats.shion.dev/api?username=aleessandrohr&show_icons=true&theme=dracula" alt="Statistics" />
+- **[Personal portfolio](https://aleessandrohr.dev.br)**: visual and terminal navigation, a resume page and shared content across both modes. Built with Next.js and TypeScript. [Source code](https://github.com/aleessandrohr/portfolio).
+- **Workspace · Anuntech**: corporate SaaS with a modular architecture using Module Federation. Implemented bookmarks as its main productivity tool and real-time notifications with Socket.io.
+- **Digitaliza Aí**: team MVP developed with AI in 4 days during an EQT LAB hackathon. Finished 5th out of 11 teams.
+- **[in.orbit](https://inorbit.aleessandrohr.dev.br)**: web application for tracking goals and weekly habits. [Try the demo](https://inorbit.aleessandrohr.dev.br/demo).
+- **[Letmeask](https://letmeask.aleessandrohr.dev.br)**: web application for creating and managing live Q&A rooms.
+
+## GitHub activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats/development-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/stats/development-light.svg" />
+    <img src="assets/stats/development-light.svg" alt="Commits in the last year, total pull requests and merged pull requests" width="400" align="top" />
+  </picture>
+  &nbsp;&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats/languages-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/stats/languages-light.svg" />
+    <img src="assets/stats/languages-light.svg" alt="Language distribution across GitHub repositories" width="400" align="top" />
+  </picture>
+</p>
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stats/contributions-compact-dark.svg" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/stats/contributions-compact-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats/contributions-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats/contributions-light.svg" />
+  <img src="assets/stats/contributions-light.svg" alt="GitHub contribution overview and activity chart for the last year" width="100%" />
+</picture>
+
+<p align="center">
+  <img src="assets/hollor_knight.gif" alt="Hollow Knight" width="112" />
 </p>

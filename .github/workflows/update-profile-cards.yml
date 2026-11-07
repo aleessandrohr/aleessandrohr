@@ -1,0 +1,42 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - 'scripts/refresh-profile-cards.mjs'
+      - '.github/workflows/update-profile-cards.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Refresh card snapshots
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: node scripts/refresh-profile-cards.mjs
+      - name: Save updated cards
+        run: |
+          git add assets/stats
+          if git diff --cached --quiet; then
+            echo 'Profile cards are already up to date.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore(profile): refresh activity cards'
+          git push
