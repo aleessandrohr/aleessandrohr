@@ -18,16 +18,29 @@ I'm a mid-level Full-Stack Developer working with TypeScript, specializing in fr
 
 ## Skills
 
-| Area | Technologies and tools |
-| --- | --- |
-| Languages | `TypeScript` `JavaScript` `Python` |
-| Front-end | `React.js` `Next.js` `Module Federation` `Tailwind CSS` `shadcn/ui` `Motion` |
-| Back-end | `Node.js` `Express.js` `Fastify` `Prisma ORM` `Drizzle ORM` |
-| Mobile | `React Native` `Expo` |
-| Databases | `PostgreSQL` `MongoDB` |
-| Infrastructure & DevOps | `Docker` `Portainer` `Cloudflare` `Caddy` |
-| AI tools | `Claude Code` `Codex` `Antigravity` `Google AI Studio` |
-| Tooling & integration | `Git` `Bun` `GitHub Actions` `i18n` `Socket.io` |
+**Languages**<br />
+![TypeScript](assets/badges/typescript.svg) ![JavaScript](assets/badges/javascript.svg) ![Python](assets/badges/python.svg)
+
+**Front-end**<br />
+![React.js](assets/badges/react-js.svg) ![Next.js](assets/badges/next-js.svg) ![Module Federation](assets/badges/module-federation.svg) ![Tailwind CSS](assets/badges/tailwind-css.svg) ![shadcn/ui](assets/badges/shadcn-ui.svg)
+
+**Back-end**<br />
+![Node.js](assets/badges/node-js.svg) ![Express.js](assets/badges/express-js.svg) ![Fastify](assets/badges/fastify.svg) ![Prisma ORM](assets/badges/prisma-orm.svg) ![Drizzle ORM](assets/badges/drizzle-orm.svg)
+
+**Mobile**<br />
+![React Native](assets/badges/react-native.svg) ![Expo](assets/badges/expo.svg)
+
+**Databases**<br />
+![PostgreSQL](assets/badges/postgresql.svg) ![MongoDB](assets/badges/mongodb.svg)
+
+**Infrastructure & DevOps**<br />
+![Docker](assets/badges/docker.svg) ![Portainer](assets/badges/portainer.svg) ![Cloudflare](assets/badges/cloudflare.svg) ![Caddy](assets/badges/caddy.svg)
+
+**AI tools**<br />
+![Claude Code](assets/badges/claude-code.svg) ![Codex](assets/badges/codex.svg) ![Antigravity](assets/badges/antigravity.svg) ![Google AI Studio](assets/badges/google-ai-studio.svg)
+
+**Tooling & integration**<br />
+![Git](assets/badges/git.svg) ![Bun](assets/badges/bun.svg) ![GitHub Actions](assets/badges/github-actions.svg) ![i18n](assets/badges/i18n.svg) ![Socket.io](assets/badges/socket-io.svg)
 
 ## Selected work
 
@@ -43,23 +56,23 @@ I'm a mid-level Full-Stack Developer working with TypeScript, specializing in fr
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/stats/development-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/stats/development-light.svg" />
-    <img src="assets/stats/development-light.svg" alt="Commits in the last year, total pull requests and merged pull requests" width="400" align="top" />
+    <img src="assets/stats/development-light.svg" alt="Commits in the last year, total pull requests and merged pull requests" width="320" align="top" />
   </picture>
   &nbsp;&nbsp;&nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/stats/languages-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/stats/languages-light.svg" />
-    <img src="assets/stats/languages-light.svg" alt="Language distribution across GitHub repositories" width="400" align="top" />
+    <img src="assets/stats/languages-light.svg" alt="Language distribution across GitHub repositories" width="320" align="top" />
   </picture>
 </p>
 
+<p align="center">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stats/contributions-compact-dark.svg" />
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/stats/contributions-compact-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats/contributions-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/stats/contributions-light.svg" />
-  <img src="assets/stats/contributions-light.svg" alt="GitHub contribution overview and activity chart for the last year" width="100%" />
+  <img src="assets/stats/contributions-light.svg" alt="GitHub contribution overview and activity chart for the last year" width="660" />
 </picture>
+</p>
 
 <p align="center">
   <img src="assets/hollor_knight.gif" alt="Hollow Knight" width="112" />

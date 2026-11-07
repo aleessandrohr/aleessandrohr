@@ -54,8 +54,8 @@ const alignMetricCard = (svg) => {
 		.replace(/<svg\b[^>]*>/, (root) =>
 			root
 				.replace(/width="[^"]*"/, 'width="320"')
-				.replace(/height="[^"]*"/, 'height="180"')
-				.replace(/viewBox="[^"]*"/, 'viewBox="0 0 320 180"'),
+				.replace(/height="[^"]*"/, 'height="165"')
+				.replace(/viewBox="[^"]*"/, 'viewBox="0 0 320 165"'),
 		)
 		.replace(/<rect\b[^>]*data-testid="card-bg"[^>]*\/>/, "");
 };
@@ -131,13 +131,6 @@ const fetchCard = async (card) => {
 
 // Validate the complete set before replacing any existing cards.
 const results = await Promise.all(cards.map(fetchCard));
-for (const theme of Object.keys(themes)) {
-	const source = results.find(
-		(card) => card.name === `contributions-${theme}`,
-	).svg;
-	const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="415" height="200" viewBox="285 0 415 200" role="img" aria-labelledby="compact-title"><title id="compact-title">GitHub contributions in the last year</title>${source}</svg>`;
-	results.push({ name: `contributions-compact-${theme}`, svg });
-}
 await mkdir(output, { recursive: true });
 for (const { name, svg: source } of results) {
 	const svg = frameCard(source, name);

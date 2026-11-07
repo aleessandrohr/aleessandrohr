@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="336" height="196" viewBox="0 0 336 196" role="img">
-<rect x=".5" y=".5" width="335" height="195" rx="20" fill="#ffffff"/>
-<rect x=".5" y=".5" width="335" height="195" rx="20" fill="none" stroke="#dedede" stroke-opacity="0.9"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="181" viewBox="0 0 336 181" role="img">
+<rect x=".5" y=".5" width="335" height="180" rx="20" fill="#ffffff"/>
+<rect x=".5" y=".5" width="335" height="180" rx="20" fill="none" stroke="#dedede" stroke-opacity="0.9"/>
 <g transform="translate(8 8)">
       <svg
         width="320"
-        height="180"
-        viewBox="0 0 320 180"
+        height="165"
+        viewBox="0 0 320 165"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
