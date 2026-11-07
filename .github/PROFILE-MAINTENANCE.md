@@ -24,3 +24,5 @@ Publicly available counters do not necessarily cover all professional or private
 The workflow has been prepared locally. Its live GitHub Actions execution must be checked after publishing; local verification does not prove a remote workflow run.
 
 Skills use locally stored 28 px badges grouped by area, with a solid #23272e background, subtle border, 7 px corner radius and 12 px text. Shields.io supplies the source icons and label measurements; the refresh script applies the custom frame without gradients, shadows or text duplication. Labels without a matching icon retain a text-only badge. The same dark-neutral badges are used in both themes. Run `node scripts/refresh-skill-badges.mjs` to refresh the assets from the skills already listed in README.md; no install or secret is required. The source is https://shields.io/badges/static-badge. Metric images are displayed at 320 px each and the full contribution chart at 660 px maximum, shrinking with the available width.
+
+Badge links include a deterministic content hash in `?v=` so style changes use a new image URL instead of reusing cached GitHub images. The refresh script updates these hashes automatically.

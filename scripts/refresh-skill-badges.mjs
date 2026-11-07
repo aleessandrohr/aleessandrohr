@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 
 const readme = new URL("../README.md", import.meta.url);
@@ -97,9 +98,18 @@ for (const { label, svg } of results) {
 	await writeFile(temporary, svg);
 	await rename(temporary, file);
 }
+const versions = new Map(
+	results.map(({ label, svg }) => [
+		label,
+		createHash("sha256").update(svg).digest("hex").slice(0, 12),
+	]),
+);
 const updated = section.replace(
-	/`([^`]+)`/g,
-	(_, label) => `![${label}](assets/badges/${filename(label)})`,
+	/`([^`]+)`|!\[([^\]]+)\]\(assets\/badges\/[^)]+\)/g,
+	(_, codeLabel, badgeLabel) => {
+		const label = codeLabel || badgeLabel;
+		return `![${label}](assets/badges/${filename(label)}?v=${versions.get(label)})`;
+	},
 );
 await writeFile(readme, markdown.replace(section, updated));
 console.log(`Updated ${results.length} local skill badges.`);
