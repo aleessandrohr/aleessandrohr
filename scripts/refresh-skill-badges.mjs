@@ -70,7 +70,7 @@ const refineBadge = (svg, label) => {
 		.replaceAll("&", "&amp;")
 		.replaceAll("<", "&lt;")
 		.replaceAll('"', "&quot;");
-	return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="28" viewBox="0 0 ${width} 28" role="img" aria-label="${escaped}"><title>${escaped}</title><rect x=".5" y=".5" width="${width - 1}" height="27" rx="7" fill="#23272e" stroke="#3b414b"/>${icon}<text x="${icon ? 34 : 10}" y="18" fill="#e6edf3" font-family="Verdana,DejaVu Sans,sans-serif" font-size="12">${escaped}</text></svg>`;
+	return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="32" viewBox="0 0 ${width} 32" role="img" aria-label="${escaped}"><title>${escaped}</title><g transform="translate(0 4)"><rect x=".5" y=".5" width="${width - 1}" height="27" rx="7" fill="#23272e" stroke="#3b414b"/>${icon}<text x="${icon ? 34 : 10}" y="18" fill="#e6edf3" font-family="Verdana,DejaVu Sans,sans-serif" font-size="12">${escaped}</text></g></svg>`;
 };
 
 // Download in small batches; validate everything before replacing the last set.
