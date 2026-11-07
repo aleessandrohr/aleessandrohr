@@ -36,10 +36,10 @@ I'm a mid-level Full-Stack Developer working with TypeScript, specializing in fr
 **Infrastructure & DevOps**<br />
 ![Docker](assets/badges/docker-53fcc74efa72.svg) ![Portainer](assets/badges/portainer-b92aadb0c52a.svg) ![Cloudflare](assets/badges/cloudflare-55ca0cb29020.svg) ![Caddy](assets/badges/caddy-82c630800731.svg)
 
-**AI tools**<br />
+**AI**<br />
 ![Claude Code](assets/badges/claude-code-2ce4e996c45e.svg) ![Codex](assets/badges/codex-ec7cc8732458.svg) ![Antigravity](assets/badges/antigravity-739985294ec3.svg) ![Google AI Studio](assets/badges/google-ai-studio-c3b0f9e95a82.svg)
 
-**Tooling & integration**<br />
+**Others**<br />
 ![Git](assets/badges/git-028389f1a943.svg) ![Bun](assets/badges/bun-6e399423d511.svg) ![GitHub Actions](assets/badges/github-actions-8785a63779c7.svg) ![i18n](assets/badges/i18n-6b498275e40c.svg) ![Socket.io](assets/badges/socket-io-7c297e0fa23a.svg)
 
 ## Selected work
