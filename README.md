@@ -19,28 +19,28 @@ I'm a mid-level Full-Stack Developer working with TypeScript, specializing in fr
 ## Skills
 
 **Languages**<br />
-![TypeScript](assets/badges/typescript.svg?v=88143d05ab7a) ![JavaScript](assets/badges/javascript.svg?v=dfb1557eb651) ![Python](assets/badges/python.svg?v=5fbf67cde6a0)
+![TypeScript](assets/badges/typescript-88143d05ab7a.svg) ![JavaScript](assets/badges/javascript-dfb1557eb651.svg) ![Python](assets/badges/python-5fbf67cde6a0.svg)
 
 **Front-end**<br />
-![React.js](assets/badges/react-js.svg?v=8a0cde336e87) ![Next.js](assets/badges/next-js.svg?v=53e98108aba0) ![Module Federation](assets/badges/module-federation.svg?v=b09a52b79af7) ![Tailwind CSS](assets/badges/tailwind-css.svg?v=53b17f850c4a) ![shadcn/ui](assets/badges/shadcn-ui.svg?v=032766068514)
+![React.js](assets/badges/react-js-8a0cde336e87.svg) ![Next.js](assets/badges/next-js-53e98108aba0.svg) ![Module Federation](assets/badges/module-federation-b09a52b79af7.svg) ![Tailwind CSS](assets/badges/tailwind-css-53b17f850c4a.svg) ![shadcn/ui](assets/badges/shadcn-ui-032766068514.svg)
 
 **Back-end**<br />
-![Node.js](assets/badges/node-js.svg?v=bad6b8d657de) ![Express.js](assets/badges/express-js.svg?v=6324be5c51b0) ![Fastify](assets/badges/fastify.svg?v=0259398494ba) ![Prisma ORM](assets/badges/prisma-orm.svg?v=ba5f4fb63b2b) ![Drizzle ORM](assets/badges/drizzle-orm.svg?v=8044d464b9dc)
+![Node.js](assets/badges/node-js-bad6b8d657de.svg) ![Express.js](assets/badges/express-js-6324be5c51b0.svg) ![Fastify](assets/badges/fastify-0259398494ba.svg) ![Prisma ORM](assets/badges/prisma-orm-ba5f4fb63b2b.svg) ![Drizzle ORM](assets/badges/drizzle-orm-8044d464b9dc.svg)
 
 **Mobile**<br />
-![React Native](assets/badges/react-native.svg?v=757e3bf84151) ![Expo](assets/badges/expo.svg?v=d4642dff10b0)
+![React Native](assets/badges/react-native-757e3bf84151.svg) ![Expo](assets/badges/expo-d4642dff10b0.svg)
 
 **Databases**<br />
-![PostgreSQL](assets/badges/postgresql.svg?v=c1095dadf017) ![MongoDB](assets/badges/mongodb.svg?v=e6122477fc18)
+![PostgreSQL](assets/badges/postgresql-c1095dadf017.svg) ![MongoDB](assets/badges/mongodb-e6122477fc18.svg)
 
 **Infrastructure & DevOps**<br />
-![Docker](assets/badges/docker.svg?v=77267e311ef9) ![Portainer](assets/badges/portainer.svg?v=97ea5be71966) ![Cloudflare](assets/badges/cloudflare.svg?v=f44c0bed3e96) ![Caddy](assets/badges/caddy.svg?v=6ec262803186)
+![Docker](assets/badges/docker-77267e311ef9.svg) ![Portainer](assets/badges/portainer-97ea5be71966.svg) ![Cloudflare](assets/badges/cloudflare-f44c0bed3e96.svg) ![Caddy](assets/badges/caddy-6ec262803186.svg)
 
 **AI tools**<br />
-![Claude Code](assets/badges/claude-code.svg?v=d0a1782794cb) ![Codex](assets/badges/codex.svg?v=ae787b424007) ![Antigravity](assets/badges/antigravity.svg?v=d9f8d3836ecc) ![Google AI Studio](assets/badges/google-ai-studio.svg?v=8f9f48c38bf1)
+![Claude Code](assets/badges/claude-code-d0a1782794cb.svg) ![Codex](assets/badges/codex-ae787b424007.svg) ![Antigravity](assets/badges/antigravity-d9f8d3836ecc.svg) ![Google AI Studio](assets/badges/google-ai-studio-8f9f48c38bf1.svg)
 
 **Tooling & integration**<br />
-![Git](assets/badges/git.svg?v=d71fc293e301) ![Bun](assets/badges/bun.svg?v=998e73a70f4d) ![GitHub Actions](assets/badges/github-actions.svg?v=43b653861ac6) ![i18n](assets/badges/i18n.svg?v=71ee54740459) ![Socket.io](assets/badges/socket-io.svg?v=96159937e50d)
+![Git](assets/badges/git-d71fc293e301.svg) ![Bun](assets/badges/bun-998e73a70f4d.svg) ![GitHub Actions](assets/badges/github-actions-43b653861ac6.svg) ![i18n](assets/badges/i18n-71ee54740459.svg) ![Socket.io](assets/badges/socket-io-96159937e50d.svg)
 
 ## Selected work
 

@@ -1,5 +1,12 @@
 import { createHash } from "node:crypto";
-import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
+import {
+	mkdir,
+	readdir,
+	readFile,
+	rename,
+	unlink,
+	writeFile,
+} from "node:fs/promises";
 
 const readme = new URL("../README.md", import.meta.url);
 const output = new URL("../assets/badges/", import.meta.url);
@@ -91,25 +98,32 @@ for (let start = 0; start < labels.length; start += 4) {
 		)),
 	);
 }
+const filenames = new Map(
+	results.map(({ label, svg }) => [
+		label,
+		`${filename(label).slice(0, -4)}-${createHash("sha256").update(svg).digest("hex").slice(0, 12)}.svg`,
+	]),
+);
 await mkdir(output, { recursive: true });
 for (const { label, svg } of results) {
-	const file = new URL(filename(label), output);
-	const temporary = new URL(`${filename(label)}.tmp`, output);
+	const file = new URL(filenames.get(label), output);
+	const temporary = new URL(`${filenames.get(label)}.tmp`, output);
 	await writeFile(temporary, svg);
 	await rename(temporary, file);
 }
-const versions = new Map(
-	results.map(({ label, svg }) => [
-		label,
-		createHash("sha256").update(svg).digest("hex").slice(0, 12),
-	]),
-);
 const updated = section.replace(
 	/`([^`]+)`|!\[([^\]]+)\]\(assets\/badges\/[^)]+\)/g,
 	(_, codeLabel, badgeLabel) => {
 		const label = codeLabel || badgeLabel;
-		return `![${label}](assets/badges/${filename(label)}?v=${versions.get(label)})`;
+		return `![${label}](assets/badges/${filenames.get(label)})`;
 	},
 );
 await writeFile(readme, markdown.replace(section, updated));
+// This directory contains only generated skill badges. Remove obsolete versions
+// after the README references the new, fully validated set.
+const current = new Set(filenames.values());
+for (const file of await readdir(output)) {
+	if (file.endsWith(".svg") && !current.has(file))
+		await unlink(new URL(file, output));
+}
 console.log(`Updated ${results.length} local skill badges.`);
